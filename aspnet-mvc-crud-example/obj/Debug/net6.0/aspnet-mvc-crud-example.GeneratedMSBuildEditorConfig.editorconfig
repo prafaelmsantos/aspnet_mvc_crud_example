@@ -16,12 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Pedro Rafael Santos\source\repos\aspnet-mvc-crud-example\aspnet-mvc-crud-example
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Pedro Rafael Santos/source/repos/aspnet-mvc-crud-example/aspnet-mvc-crud-example/Views/Home/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Pedro Rafael Santos/source/repos/aspnet-mvc-crud-example/aspnet-mvc-crud-example/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pedro Rafael Santos/source/repos/aspnet-mvc-crud-example/aspnet-mvc-crud-example/Views/Home/UserForm.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyRm9ybS5jc2h0bWw=
+[C:/Users/Pedro Rafael Santos/source/repos/aspnet-mvc-crud-example/aspnet-mvc-crud-example/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro Rafael Santos/source/repos/aspnet-mvc-crud-example/aspnet-mvc-crud-example/Views/Home/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Pedro Rafael Santos/source/repos/aspnet-mvc-crud-example/aspnet-mvc-crud-example/Views/Shared/Error.cshtml]
