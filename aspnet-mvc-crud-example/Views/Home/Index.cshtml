@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Página Principal";
+    ViewBag.Subtitle = "Página Principal";
 }
 
 <div class="container">
@@ -8,5 +8,8 @@
     <p>
         CRUD with ASP.NET Core MVC 6!
     </p>
+    <hr>
+    <h3 class="text-info">Utilizadores Registados: @ViewBag.UserCounter</h3>
+    <hr>
     <a href="/Home/Users" class="btn btn-primary">Utilizadores</a>
 </div>

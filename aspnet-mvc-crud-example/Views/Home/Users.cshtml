@@ -1,12 +1,26 @@
 ﻿@{
-    ViewData["Title"] = "Utilizadors";
+    ViewBag.Subtitle = "Utilizadors";
 }
-@model IQueryable<aspnet_mvc_crud_example.Models.UserModel>
+@model IQueryable<UserModel>
 
 <div class="container">
     <h1 class="text-primary">Utilizadores</h1>
     <hr>
     <a href="/Home/Register" class="btn btn-primary">Novo Utilizador</a>
+
+    @if (TempData.ContainsKey("Deleted"))
+    {
+        var deleted = (bool)TempData["Deleted"];
+
+        if (deleted)
+        {
+            <partial name="_MsgInfo" model="@("Utilizador apagado com sucesso!")"></partial>
+        }
+        else
+        {
+            <partial name="_MsgError" model="@("Não foi possível apagar o Utilizador!")"></partial>
+        }
+    }
     <table class="table mt-2">
         <thead>
             <tr>

@@ -1,6 +1,5 @@
 ﻿using aspnet_mvc_crud_example.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 using System.Linq;
 
 namespace aspnet_mvc_crud_example.Controllers
@@ -9,6 +8,7 @@ namespace aspnet_mvc_crud_example.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.UserCounter = UserModel.UsersList.Count();
             return View();
         }
 
@@ -49,14 +49,9 @@ namespace aspnet_mvc_crud_example.Controllers
         [HttpPost]
         public IActionResult Delete(UserModel user)
         {
-            UserModel.Delete(user.Id);
+            TempData["Deleted"] = UserModel.Delete(user.Id);
             return RedirectToAction("Users");
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
     }
 }

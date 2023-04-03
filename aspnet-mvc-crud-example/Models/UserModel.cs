@@ -51,13 +51,14 @@ namespace aspnet_mvc_crud_example.Models
             }
         }
 
-        public static void Delete(int userId)
+        public static bool Delete(int userId)
         {
             var userExist = usersList.Find(u => u.Id == userId);
             if (userExist != null)
             {
-                usersList.Remove(userExist);
+                return usersList.Remove(userExist);
             }
+            return false;
         }
     }
 }
