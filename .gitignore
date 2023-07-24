@@ -1,2 +1,5 @@
 
 *.cache
+*.v2
+*.v2
+.vs/aspnet-mvc-crud-example/v17/.suo
