@@ -3,3 +3,10 @@
 *.v2
 *.v2
 .vs/aspnet-mvc-crud-example/v17/.suo
+*.vsidx
+*.editorconfig
+*.json
+*.json
+*.props
+*.json
+*.cache

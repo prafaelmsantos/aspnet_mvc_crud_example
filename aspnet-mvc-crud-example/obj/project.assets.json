@@ -1269,11 +1269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pedro Rafael Santos\\source\\repos\\aspnet-mvc-crud-example\\aspnet-mvc-crud-example\\aspnet-mvc-crud-example.csproj",
+      "projectUniqueName": "C:\\Users\\Pedro Rafael Santos\\Documents\\.NET Projects\\aspnet_mvc_crud_example\\aspnet-mvc-crud-example\\aspnet-mvc-crud-example.csproj",
       "projectName": "aspnet-mvc-crud-example",
-      "projectPath": "C:\\Users\\Pedro Rafael Santos\\source\\repos\\aspnet-mvc-crud-example\\aspnet-mvc-crud-example\\aspnet-mvc-crud-example.csproj",
+      "projectPath": "C:\\Users\\Pedro Rafael Santos\\Documents\\.NET Projects\\aspnet_mvc_crud_example\\aspnet-mvc-crud-example\\aspnet-mvc-crud-example.csproj",
       "packagesPath": "C:\\Users\\Pedro Rafael Santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pedro Rafael Santos\\source\\repos\\aspnet-mvc-crud-example\\aspnet-mvc-crud-example\\obj\\",
+      "outputPath": "C:\\Users\\Pedro Rafael Santos\\Documents\\.NET Projects\\aspnet_mvc_crud_example\\aspnet-mvc-crud-example\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1288,6 +1288,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1334,7 +1335,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
